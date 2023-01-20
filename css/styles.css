@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+    border:none;
+}
+body{
+    margin:0;
+    padding-bottom: 0;
+}
+#top_container {
+    background-image: repeating-linear-gradient(#000000, #070808, #27282c, #292c30);
+    color: aliceblue;
+    font-family: cursive;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+}
+#middle_container{   
+    background-image: repeating-linear-gradient(#292c30, #27282c);
+    color: aliceblue;
+    font-family: cursive;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 0%;
+}
+#bottom_container{
+    background-color:#27282c;
+    color: aliceblue;
+    font-family: cursive;
+    padding-bottom: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 0%;
+}
+h1 {
+    padding-top: 30%;
+    text-align: left;
+    font-size: 60px;
+    margin: 0PX;
+}
+.p1 {
+    text-align: left;
+    font-size: x-large;
+    margin-top: -2%;
+}
+.top_img {
+    scale:70%;
+    position: absolute;
+    left: 50%;
+    bottom:20%;
+}
+.top_img:hover {
+    border:3px solid #677a96;
+    border-radius: 60%;
+    transform: scale(1.07);
+}
+.button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    top:50px;
+    right:190px;
+    background-image:linear-gradient(#EB5B67,#EB815B);
+    font-size: large;
+    font-family: cursive;
+    border-radius: 12px;
+}
+.button:hover {
+    border:1px solid rgb(252, 38, 0);
+    border-radius: 12px;
+    cursor: pointer;
+    transform:scale(1.05);
+}
+.about {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline rgb(125, 125, 138);
+    text-underline-offset: 8px;
+}
+.p_about {
+    font-size: large;
+}
+.projects {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline rgb(125, 125, 138);
+    text-underline-offset: 8px;
+    padding-top:10%;
+}
+.arcadelabs {
+    font-family: monospace;
+    text-decoration: underline rgb(125, 125, 138);
+    text-underline-offset: 8px;
+}
+.arcadelabs_pfp {
+    scale: 30%;
+    position: relative;
+    right: 285px;
+    bottom: 180px;
+}
+.p_arcadelabs { 
+    position: relative;
+    bottom: 530px;
+    padding-left: 20%;
+    padding-right:20%;
+    
+}
+.ar_discord {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    top:80px;
+    right:350px;
+    background-image:linear-gradient(#5b89eb,#5bc2eb);
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 12px;
+}
+.ar_git {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    top:80px;
+    right:350px;
+    background-image:linear-gradient(#5b89eb,#5bc2eb);
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 12px;
+}
+.ar_discord:hover {
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    cursor: pointer;
+    transform:scale(1.05);
+}
+.ar_git:hover {
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    cursor: pointer;
+    transform:scale(1.05);
+}
